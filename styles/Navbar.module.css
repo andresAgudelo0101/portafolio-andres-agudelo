@@ -1,0 +1,14 @@
+.menu{
+    position: fixed;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    padding: 4px;
+    color: rgba(255, 254, 254, 0);
+  }
+  
+.menu a{
+    color:rgb(0, 0, 0);
+   
+}
