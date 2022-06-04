@@ -9,7 +9,9 @@ function Navbar() {
         <a href="#projects">proyectos</a>
       </div>
       <div className={styles.containerBtn}>
-        <button>Engl</button>
+        <button className={styles.btnFlag}>
+          <img src="/usa.png" className={styles.flag}/>
+        </button>
       </div>
     </nav>
   );
