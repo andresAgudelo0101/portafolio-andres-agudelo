@@ -1,45 +1,42 @@
-.container{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    background-color: #000000;
-    color: #ffffff;
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: #000000;
+  color: #ffffff;
 }
 
-.containerGrid{
-    display: grid;
-    grid-template-columns:repeat(2,49%);
-    justify-content: center;
-    gap: 10px;
+.containerGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 49%);
+  justify-content: center;
+  gap: 10px;
 }
 
-.containerSkills{
-    display: grid;
-    grid-template-columns: repeat(auto-fill,25%);
-    gap: 8px;
+.containerSkills {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 25%);
+  gap: 8px;
 }
 
-.h1{
+.h1 {
   text-align: center;
   padding: 10px;
-  font-size: 2.3em;
-  line-height: 1.1;
-  letter-spacing:3px;
-  }
+}
 
-.subtitulo{
-  color:#666565c4;
+.subtitulo {
+  color: #666565c4;
   font-size: 1.2rem;
 }
 
-.skill{
+.skill {
   background-color: #666565c4;
   height: 75px;
-  display:grid;
-  grid-template-columns: repeat(1,98%);
+  display: grid;
+  grid-template-columns: repeat(1, 98%);
   grid-template-rows: 70% 30%;
   text-align: center;
   font-size: 1.1rem;
@@ -48,44 +45,46 @@
   justify-content: center;
 }
 
-.p{
+.p {
   font-weight: 100;
-  font-size: 1.2rem
+  font-size: 1.2rem;
 }
 
-.imgLogo{
+.imgLogo {
   width: auto;
   height: 100%;
 }
 
-.imgLogo:hover{
+.imgLogo:hover {
   filter: brightness(50%);
 }
 
-.btnCv{
+.btnCv {
   background-color: transparent;
   padding: 6px 15px;
   border-radius: 6px;
-  color:#84C9D9;
-  border: solid 1px #84C9D9;
+  color: #84c9d9;
+  border: solid 1px #84c9d9;
   cursor: pointer;
   font-size: 1.2rem;
 }
 
-.btnCv:hover{
+.btnCv:hover {
   border: solid 1px white;
   color: #ffffff;
 }
-  
+
 @keyframes blink {
-  50%{border-color: transparent;}
+  50% {
+    border-color: transparent;
+  }
 }
 
-@media (max-width:800px){
-  .containerGrid{
-    grid-template-columns:repeat(1,90%);
+@media (max-width: 800px) {
+  .containerGrid {
+    grid-template-columns: repeat(1, 90%);
   }
-  .containerSkills{
-    grid-template-columns: repeat(auto-fill,26%);
+  .containerSkills {
+    grid-template-columns: repeat(auto-fill, 26%);
   }
 }

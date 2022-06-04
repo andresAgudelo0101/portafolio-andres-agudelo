@@ -1,16 +1,17 @@
 import styles from "../../styles/Navbar.module.css";
 
-function Navbar() {
+function Navbar(props) {
+  const dataNav=props.data.nav;
   return (
     <nav className={styles.menu}>
       <div className={styles.links}>
-        <a href="#home">Inicio</a>
-        <a href="#about">acerca</a>
-        <a href="#projects">proyectos</a>
+        <a href="#home">{dataNav.a1}</a>
+        <a href="#about">{dataNav.a2}</a>
+        <a href="#projects">{dataNav.a3}</a>
       </div>
       <div className={styles.containerBtn}>
-        <button className={styles.btnFlag}>
-          <img src="/usa.png" className={styles.flag}/>
+        <button className={styles.btnFlag} onClick={props.setLanguage}>
+          <img src={dataNav.icon} className={styles.flag}/>
         </button>
       </div>
     </nav>
