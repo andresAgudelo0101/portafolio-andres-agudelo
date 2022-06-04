@@ -14,7 +14,7 @@ function About(props) {
             <h5 className={styles.subtitulo}>{dataAbout?.subtitle1}</h5>
             <h2>{dataAbout?.p1}</h2>
             <p className={styles.p}>
-              {dataAbout.p2}
+              {dataAbout?.p2}
             </p>
             <button className={styles.btnCv}>
               <Link href="/cv_andres_agudelo.pdf">
@@ -23,7 +23,7 @@ function About(props) {
             </button>
           </div>
           <div>
-            <h5 className={styles.subtitulo}>{dataAbout.subtitle2}</h5>
+            <h5 className={styles.subtitulo}>{dataAbout?.subtitle2}</h5>
             <div className={styles.containerSkills}>
               <div className={styles.skill}>
                 <div>
