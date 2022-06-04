@@ -5,6 +5,7 @@ import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Presentation from "./components/Presentation";
 import { useState } from "react";
+import Projects from "./components/Projects";
 
 export default function Home() {
 
@@ -58,6 +59,7 @@ export default function Home() {
       <Navbar setLanguage={changeLanguage} data={language?dataEs:dataEn}/>
       <Presentation />
       <About data={language?dataEs:dataEn}/>
+      <Projects/>
     </div>
   );
 }

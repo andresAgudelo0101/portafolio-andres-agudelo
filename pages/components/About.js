@@ -7,7 +7,7 @@ function About(props) {
     <div id="about" className={styles.container}>
       <div>
         <div>
-          <h1 className={styles.h1}>{dataAbout.title}</h1>
+          <h1 className={styles.titulo}>{dataAbout.title}</h1>
         </div>
         <div className={styles.containerGrid}>
           <div>

@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   background-color: #000000;
   color: #ffffff;
 }
@@ -22,9 +22,11 @@
   gap: 8px;
 }
 
-.h1 {
-  text-align: center;
+.titulo{
+  text-align: left;
   padding: 10px;
+  border-bottom: 1px solid #ffffff;
+  border-radius: 2px;
 }
 
 .subtitulo {
