@@ -1,5 +1,5 @@
 .container {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -22,10 +22,10 @@
   gap: 8px;
 }
 
-.titulo{
+.titulo {
   text-align: left;
-  padding: 10px;
-  border-bottom: 1px solid #ffffff;
+  padding: 1px;
+  border-bottom: 1px solid #666565c4;
   border-radius: 2px;
 }
 
@@ -61,6 +61,9 @@
   filter: brightness(50%);
 }
 
+.containerBtn {
+  padding-top: 10px;
+}
 .btnCv {
   background-color: transparent;
   padding: 6px 15px;
@@ -83,6 +86,12 @@
 }
 
 @media (max-width: 800px) {
+  .container {
+    height: 100vh;
+  }
+  .titulo {
+    text-align: center;
+  }
   .containerGrid {
     grid-template-columns: repeat(1, 90%);
   }

@@ -2,7 +2,7 @@ import Link from "next/link";
 import styles from "../../styles/About.module.css";
 
 function About(props) {
-  const dataAbout=props?.data?.about;
+  const dataAbout = props?.data?.about;
   return (
     <div id="about" className={styles.container}>
       <div>
@@ -13,14 +13,14 @@ function About(props) {
           <div>
             <h5 className={styles.subtitulo}>{dataAbout?.subtitle1}</h5>
             <h2>{dataAbout?.p1}</h2>
-            <p className={styles.p}>
-              {dataAbout?.p2}
-            </p>
-            <button className={styles.btnCv}>
-              <Link href="/cv_andres_agudelo.pdf">
-                <a target="_blank">{dataAbout?.btn}</a>
-              </Link>
-            </button>
+            <p className={styles.p}>{dataAbout?.p2}</p>
+            <div className={styles.containerBtn}>
+              <button className={styles.btnCv}>
+                <Link href="/cv_andres_agudelo.pdf">
+                  <a target="_blank">{dataAbout?.btn}</a>
+                </Link>
+              </button>
+            </div>
           </div>
           <div>
             <h5 className={styles.subtitulo}>{dataAbout?.subtitle2}</h5>
