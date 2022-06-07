@@ -44,3 +44,9 @@
   background-color: transparent;
   cursor:pointer;
 }
+
+@media (max-width:800px){
+  .links a{
+    font-size: 1.1em;
+  }
+}

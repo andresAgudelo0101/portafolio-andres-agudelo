@@ -1,0 +1,30 @@
+.container{
+    height: 18vh;
+    background-color: #1A3940;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0f8ff;
+    font-size: 1rem;
+}
+
+.containerLogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.img{
+   width: auto;
+   height: 44px;
+}
+
+@media (max-width:800px) {
+    .container{
+        height: 15vh;
+    }
+    .img{
+        height:38px; 
+    }
+}
