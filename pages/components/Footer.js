@@ -12,7 +12,7 @@ function Footer() {
                 <Link href="https://www.instagram.com/andres_agudelo_e/">
                     <a target="_blank"><img src="/instagram.png" className={styles.img}/></a>
                 </Link>
-                <Link href="https://twitter.com/andresa45419728">
+                <Link href="https://www.linkedin.com/in/andres-agudelo-580895109">
                     <a target="_blank"><img src="/tuita.png" className={styles.img}/></a>
                 </Link>
             </div>

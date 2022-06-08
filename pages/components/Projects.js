@@ -10,12 +10,14 @@ function Projects(props) {
         <div className={styles.container}>
           <div className={styles.slider}>
             {dataProject?.projects?.map((projectId) => (
-              <a key={projectId.id} href={"#" + projectId.id}>{cont++}</a>
+              <a key={projectId.id} href={"#" + projectId.id}>
+                {cont++}
+              </a>
             ))}
 
             <div className={styles.slides}>
               {dataProject?.projects?.map((project) => (
-                <div  key={project.id} id={project.id}>
+                <div key={project.id} id={project.id}>
                   <div className={styles.containerImg}>
                     <img
                       src={project.img}
