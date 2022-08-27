@@ -55,6 +55,12 @@ function About(props) {
                 </div>
                 <h5>Git</h5>
               </div>
+              <div className={styles.skill}>
+                <div>
+                  <img src="asd" className={styles.imgLogo} alt="logo" />
+                </div>
+                <h5>Asp.net</h5>
+              </div>
             </div>
           </div>
         </div>
